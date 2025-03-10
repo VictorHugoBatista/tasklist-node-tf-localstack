@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket   = "terraform-localstack"
+    bucket   = "tasklist-node-tf-localstack"
     key      = "terraform.tfstate"
     region   = "us-east-1"
     use_path_style = true
